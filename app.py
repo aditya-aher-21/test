@@ -31,5 +31,3 @@ if st.button("Predict"):
         [[avg_session, time_app, time_web, membership]]
     )
     st.success(f"Predicted Yearly Amount Spent: ${prediction[0]:.2f}")
-
-!pip install streamlit
